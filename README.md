@@ -18,3 +18,5 @@ Use help from mongo shell to see all the commands
 ### To insert Data
 ``` db.collectionNames.insert(yourdatajson) ```
 
+### Show all the data from a collections 
+``` db.collectionsName.find().pretty() ```
